@@ -1,12 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AhorrADAs</title>
+    <link rel="icon" href="./img/icono.ico" type="image/png" />
+    <link rel="stylesheet" href="./style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
+
 <body>
-    
+    <div class="navbar-fixed">
+        <nav class="purple lighten-1">
+            <div class="nav-wrapper">
+
+                <a href="#" class="brand-logo center">
+                    <img src="./img/logo.ico" alt="">
+                    AHORRADAS
+                </a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <div class="right hide-on-med-and-down">
+                    <ul class="tabs">
+                        <li class="tab col s3">
+                            <a href="#Balance" class="active">
+                                <span class="material-icons">
+                                    trending_up
+                                </span>
+                                Balance
+                            </a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#Categoria" class="category">
+                                <span class="material-icons">
+                                    dns
+                                </span>
+                                Categoría
+                            </a>
+                        </li>
+                        <li class="tab col s3">
+                            <a href="#Reportes" class="reportes">
+                                <span class="material-icons">
+                                    folder_special
+                                </span>
+                                Reportes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <!-- <main>
+            <div class="nav-content">
+                <div>
+                    <ul class="sidenav purple lighten-1" id="menu-responsive">
+                        <li id="categoriaBalance">
+                            <a href="">
+                                <span class="material-icons">
+                                    trending_up
+                                </span>
+                                Balance
+                            </a>
+                        </li>
+                        <li id="categoriaBalance">
+                            <a href="">
+                                <span class="material-icons">
+                                    dns
+                                </span>
+                                Categoría
+                            </a>
+                        </li>
+                        <li id="categoriaBalance"> 
+                            <a href="">
+                                <span class="material-icons">
+                                    folder_special
+                                </span>
+                                Reportes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </main> -->
+
+    </div>
+
+
+    <div id="Balance" class="col s12">
+        <div class="container" id="categoriaBalance">
+
+            <div class="row">
+                <div class="col s4">
+                    <div class="purple lighten-4">
+                        <h5>Balance</h5>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="separator">
+
+                    </div>
+                    <div class="purple lighten-4">
+                        <h5>Filtros</h5>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="col s1">
+
+                </div>
+                <div class="col s7">
+                    <div class="purple lighten-4">
+                        <h5>Operaciones</h5>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container" id="categoriaBalance">
+            <div id="Categoria" class="input-field col s6">
+                <div class="box">
+                    <h2 class="title">Nueva operación</h2>
+                    <div class="field mt-6">
+                        <label for="descripcion" class="label">Descripción</label>
+                        <input id="descripcion" class="input" type="text" placeholder="Ingresa la descripción">
+                    </div>
+                    <div class="input-field">
+                        <label for="monto" class="label">Monto</label>
+                        <input id="monto" class="input" type="number" placeholder="Ingresa el monto">
+                    </div>
+                    <div class="field">
+                        <label for="tipo" class="label">Tipo</label>
+                        <div class="control">
+                          <div class="select is-fullwidth">
+                            <select id="tipo">
+                              <option>Gasto</option>
+                              <option>Ganancia</option>
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+                    <label for="categoria" class="label">Categoría</label>
+                    <div class="control">
+                        <div class="select is-fullwidth">
+                            <select id="categoria">
+                                <option>Salidas</option>
+                                <option>Educación</option>
+                                <option>Transporte</option>
+                                <option>Trabajo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="fecha" class="label">Fecha</label>
+                        <input id="input-fecha" class="input" type="date" name="label">
+                    </div>
+                    <div class="field is-grouped is-grouped-right">
+                        <p class="control">
+                        </p>
+                        <a class="waves-effect waves-light btn-small"><i class="material-icons right">close</i>Cancelar</a>
+                        <a class="waves-effect waves-light2 btn-small"><i class="material-icons right">add_circle_outline</i>Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div id="Reportes" class="col s12">Reportes</div>
+
+
+
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                M.AutoInit();
+            });
+        </script>
+
 </body>
+
 </html>

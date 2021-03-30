@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+body{
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+}
+/* 
+.row > div{
+    padding: 10px;
+    background: #ddd;
+    line-height: 60px;
+
+} */
+
+.col > div{
+    padding: 10px;
+    background: #ddd;
+    line-height: 60px;
+
+} 
+
+.row{
+    margin: 40px auto;
+}
+
+.s1{
+    background: transparent!important;
+}
+
+.separator{
+    background: transparent!important;
+}
+
+.col > div {
+    padding: 10px;
+    background:transparent;
+    line-height: 60px;
+}
+
+.tabs {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 48px;
+    width: 100%;
+    background-color: transparent!important;
+    color: black !important;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+    color: white!important;
+}
+
+.waves-effect{
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    color: black!important;
+}
+
+input{
+    color: honeydew;
+}
+
+.title, .brand-logo, .active, .category, .reportes{
+    font-family: 'Lato', sans-serif;
+}
